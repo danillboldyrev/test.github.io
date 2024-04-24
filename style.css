@@ -1,0 +1,367 @@
+.bg-custom {
+    background-color: #001246;
+}
+
+body{
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+.name{
+    color: #fff;
+}
+
+/* .footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} */
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/dark-blue-mountains-empty-stone-relief-mountains-3d-render_507676-2873.jpg?w=1380');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hero .lead {
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+    font-size: 1.5rem;
+    padding: 15px 40px;
+}
+
+.footer {
+    background-color: #001246;
+  }
+  
+  .footer .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer p,
+  .footer ul li {
+    font-size: 14px;
+  }
+  
+  .footer hr {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-icons a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff !important;
+  }
+
+.about-us{
+    background-color: #f8f9fa;
+    padding-bottom: 40px;
+}
+
+.about-us h2,
+.achievements h2 {
+    font-weight: bold;
+}
+
+.about-us img {
+    display: block;
+    margin: 0 auto;
+}
+
+.achievements {
+    background-color: #f8f9fa;
+}
+
+.achievement-card {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-right: 20px;
+}
+
+.achievement-content h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.achievement-content p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+@media (max-width: 767px) {
+    .footer .text-end {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-end {
+        text-align: center !important;
+    }
+}
+
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: #e6e6e6;
+    border-bottom: none;
+    padding: 20px;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.forgot-pass-btn {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-pass-btn:hover {
+    text-decoration: underline;
+}
+
+.our-team {
+    background-color: #f8f9fa;
+}
+
+.our-team h2 {
+    font-weight: bold;
+    color: #001246;
+}
+
+.team-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.team-card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #001246;
+}
+
+.team-card p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.team-contribution {
+    font-style: italic;
+    margin-top: 20px;
+    color: #001246;
+}
+
+.counters {
+    background-color: #001246;
+    color: #fff;
+  }
+  
+  .counter-item {
+    text-align: center;
+  }
+  
+  .counter-item h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .counter-item p {
+    font-size: 1.1rem;
+  }
+
+  .advantages {
+    background-color: #f8f9fa;
+  }
+  
+  .advantages h2 {
+    color: #001246;
+  }
+
+  h2,h3,h4{
+    color: #001246;
+  }
+   
+  h3.counter{
+    color: #fff; 
+  }
+  
+  .advantage-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .advantage-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .advantage-icon {
+    font-size: 3rem;
+    color: #001246;
+  }
+  
+  .advantage-content h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #001246;
+  }
+  
+  .advantage-content p {
+    color: #6c757d;
+  }
+
+.achievement-card{
+    min-height: 250px;
+}
+
+.swiper-container {
+    overflow: hidden;
+  }
+  
+  .swiper-slide {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .swiper-slide-active {
+    opacity: 1;
+  }
+  
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    opacity: 0;
+  }
+
