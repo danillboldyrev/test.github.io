@@ -68,7 +68,7 @@ footer ul li a {
     position: relative;
     z-index: 2;
     color: #fff;
-    padding: 150px 0;
+    padding: 70px 0;
 }
 
 .hero h1 {
@@ -364,3 +364,4 @@ footer ul li a {
   .swiper-slide-next {
     opacity: 0;
   }
+

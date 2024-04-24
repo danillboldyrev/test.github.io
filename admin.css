@@ -1,0 +1,259 @@
+.bg-custom {
+    background-color: #001246;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  nav ul li {
+    margin-left: 15px;
+    color: #fff;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  .admin-menu {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-menu h4 {
+    margin-bottom: 20px;
+    color: #001246;
+  }
+  
+  .accordion-button {
+    color: #001246;
+    font-weight: bold;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #001246;
+    color: #fff;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+  }
+  
+  .accordion-body ul li {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-body ul li a {
+    color: #001246;
+    text-decoration: none;
+  }
+  
+  .admin-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-form h4 {
+    margin-bottom: 20px;
+    color: #001246;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #001246;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #001246;
+    border-color: #001246;
+  }
+  
+  .btn-primary:hover {
+    background-color: #000c2e;
+    border-color: #000c2e;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    background-color: #001246;
+  }
+  
+  .footer p,
+  .footer ul li a {
+    color: #fff;
+  }
+  
+  .footer ul li {
+    margin-left: 15px;
+  }
+
+  .dropdown-menu {
+    background-color: #001246;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #000c2e;
+    color: #fff;
+  }
+  
+  .dropdown-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .admin-menu {
+    /* background-color: #f8f9fa; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-menu h4 {
+    margin-bottom: 20px;
+    color: #001246;
+  }
+  
+  .accordion-button {
+    color: #001246;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #001246;
+    color: #fff;
+  }
+  
+  /* .accordion-button:hover {
+    background-color: #e9ecef;
+  } */
+  
+  .accordion-body {
+    padding: 10px 20px;
+  }
+  
+  .accordion-body ul li {
+    margin-bottom: 5px;
+  }
+  
+  .accordion-body ul li a {
+    color: #001246;
+    text-decoration: none;
+  }
+  
+  .accordion-body ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .admin-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-form h4 {
+    margin-bottom: 20px;
+    color: #001246;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #001246;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #001246;
+    border-color: #001246;
+  }
+  
+  .btn-primary:hover {
+    background-color: #000c2e;
+    border-color: #000c2e;
+  }
+  
+  /* .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62; */
+  /* } */
+
+  .admin-menu {
+    min-height: calc(100vh - 200px);
+    padding: 30px;
+    /* color: #fff; */
+  }
+  
+  .admin-menu h4 {
+    margin-bottom: 20px;
+  }
+  
+  .accordion-item {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .accordion-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* color: #fff; */
+    border-radius: 5px;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* color: #fff; */
+    box-shadow: none;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+  }
+  
+  .accordion-body ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* .accordion-body ul li a {
+    color: #fff;
+    text-decoration: none;
+  } */
+  
+  .admin-form {
+    /* background-color: #fff; */
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
